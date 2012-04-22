@@ -1,0 +1,43 @@
+
+<% content_for :js_ready do %>
+  <script type='text/javascript'>
+    new NewUserForm({preloaded: true, errors: <%= @errors.to_json.html_safe %>});
+  </script>
+<% end %>
+
+<div style='margin-top: 30px'>
+  <div class='row'>
+    <div class='span8 offset2'>
+      <%= form_tag '/auth/identity/register', :id => "user_form", :class => 'form-horizontal' do |f| %>
+        <%= hidden_field_tag 'format', 'json' %>
+        <fieldset>
+          <legend>Create an account <a href='<%= signin_path %>'>or sign in</a></legend>
+          <div class='feedback'></div>
+          <div class='control-group _username_group'>
+            <%= label_tag(:username) %>
+            <div class='controls'><%= text_field_tag :username %></div>
+          </div>
+          
+          <div class='control-group _email_group'>
+            <%= label_tag(:email) %>
+            <div class='controls'><%= text_field_tag :email %></div>
+          </div>
+          
+          <div class='control-group _password_group'>
+            <%= label_tag(:password) %>
+            <div class='controls'><%= password_field_tag :password %></div>
+          </div>
+          
+          <div class='control-group _password_confirmation_group'>
+            <%= label_tag(:password_confirmation) %>
+            <div class='controls'><%= password_field_tag :password_confirmation %></div>
+          </div>
+          
+          <div class='form-actions'>
+              <%= submit_tag "Sign up", :class => 'btn btn-primary btn-large' %>
+          </div>
+        </fieldset>
+      <% end %>
+    </div>
+  </div>
+</div>

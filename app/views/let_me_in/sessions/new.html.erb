@@ -1,0 +1,27 @@
+
+<div style='margin-top: 30px'>
+  <div class='row'>
+    <div class='span8 offset2'>
+      <%= form_tag '/auth/identity/callback', :id => "user_form", :class => 'form-horizontal' do |f| %>
+        <%= hidden_field_tag 'format', 'json' %>
+        <fieldset>
+          <legend>Sign in to your account</legend>
+          <div class='control-group feedback'></div>
+          <div class='control-group _username_group'>
+            <%= label_tag(:auth_key, "Username or email") %>
+            <div class='controls'><%= text_field_tag :auth_key %></div>
+          </div>
+          
+          <div class='control-group _password_group'>
+            <%= label_tag(:password) %>
+            <div class='controls'><%= password_field_tag :password %></div>
+          </div>
+          
+          <div class='form-actions'>
+              <%= submit_tag "Sign in", :class => 'btn btn-primary btn-large' %>
+          </div>
+        </fieldset>
+      <% end %>
+    </div>
+  </div>
+</div>

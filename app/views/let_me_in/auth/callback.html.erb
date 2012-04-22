@@ -1,0 +1,7 @@
+<p>You can close this window</p>
+
+<script type="text/javascript">
+  if (window.opener != null) {
+    window.opener.closePopup(<%= @data.to_json.html_safe %>);
+  }
+</script>
