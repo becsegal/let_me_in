@@ -7,10 +7,12 @@
 //= require ./lib/jquery-1.7.1.min.js
 //= require ./lib/underscore
 //= require ./lib/handlebars
-//= require_tree ../../templates/let_me_in
+//= require_tree ./../../templates/let_me_in
 //= require_tree ./lib
 //= require_tree ./models
 //= require ./popup
 //= require_tree ./views/base
 //= require_tree ./views
+//= require_tree ./routers
 //= require_tree .
+

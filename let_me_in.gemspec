@@ -18,10 +18,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 3.1.4"
   s.add_dependency 'bcrypt-ruby', '~> 3.0.0'
-  
   s.add_dependency 'omniauth-identity'
-  s.add_dependency 'omniauth-twitter'
-  s.add_dependency 'omniauth-instagram'
 
   s.add_development_dependency "sqlite3"
 end

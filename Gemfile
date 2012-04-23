@@ -8,16 +8,18 @@ gemspec
 # jquery-rails is used by the dummy application
 gem "jquery-rails"
 
-#### TODO modularize this hbs shiz
-gem 'hbs'
-gem 'sass-rails',   '~> 3.1.4'
-gem 'coffee-rails', '~> 3.1.1'
-gem 'uglifier', '>= 1.0.3'
-
-gem 'handlebars_assets'
+gem 'omniauth-identity'
 gem 'omniauth-instagram'
-gem 'omniauth-twitter'
+gem 'omniauth-twitter', '0.0.8'
 gem 'omniauth-banters', :git => "git://github.com/becarella/omniauth-banters.git"
+
+gem 'hbs'
+gem 'handlebars_assets'
+group :assets do
+  gem 'sass-rails',   '~> 3.1.4'
+  gem 'coffee-rails', '~> 3.1.1'
+  gem 'uglifier', '>= 1.0.3'
+end
 
 # Declare any dependencies that are still in development here instead of in
 # your gemspec. These might include edge Rails or gems from your path or

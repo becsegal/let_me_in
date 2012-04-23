@@ -1,4 +1,4 @@
-Router = Backbone.Router.extend
+LinkedAccountRouter = Backbone.Router.extend
 
   routes: 
     "accounts": "linked_accounts"
@@ -12,7 +12,7 @@ Router = Backbone.Router.extend
   signin: -> 
     new NewSessionForm({preloaded: true, errors: errors});
       
-window.admin_router = new Router()
+window.admin_router = new LinkedAccountRouter()
 
 Backbone.history.start({pushState: true})
 

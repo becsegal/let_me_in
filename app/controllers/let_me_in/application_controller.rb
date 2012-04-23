@@ -4,8 +4,8 @@ module LetMeIn
     before_filter :load_hbs_helpers
 
     def load_hbs_helpers
-      return if !Rails.env.development?
-      HandlebarsConfig.register_partials
+      logger.debug "LetMeIn::ApplicationController.load_hbs_helpers"
+      LetMeIn::HandlebarsConfig.register_partials
     end
   end
 end
