@@ -7,11 +7,12 @@ module LetMeIn
     attr_accessible :type, :user_id, :token, :secret, :app_username, :app_user_id, :url, :image_url
     cattr_accessor :account_types
     
+    
     def serializable_hash options={}
       options ||= {}
       options[:except] = (options[:except] || []) | [:token, :secret]
       hash = super options
-      hash.merge!(:connected => connected?, :type => type.downcase)
+      hash.merge!(:connected => connected?, :type => type.split('::').last)
       hash
     end
     
@@ -30,6 +31,10 @@ module LetMeIn
     
     def connected?
       token?
+    end
+    
+    def self.short_name
+      name.split('::')
     end
 
     def self.available_types
@@ -53,11 +58,11 @@ module LetMeIn
     end
 
     def self.key
-      ENV["#{name.split('::').last.upcase}_KEY"]
+      ENV["#{short_name.last.upcase}_KEY"]
     end
 
     def self.secret
-      ENV["#{name.split('::').last.upcase}_SECRET"]
+      ENV["#{short_name.last.upcase}_SECRET"]
     end
 
   end

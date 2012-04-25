@@ -31,7 +31,8 @@ module LetMeIn
         data = LetMeIn::User.find_or_create_by_auth_hash auth_hash
         sign_in(data) if data
       else
-        data = auth_hash.provider.capitalize.constantize.link(auth_hash, current_user)
+        logger.debug "[DEBUG] LetMeIn::#{auth_hash.provider}"
+        data = "LetMeIn::#{auth_hash.provider.capitalize}".constantize.link(auth_hash, current_user)
       end
       render_or_redirect data, options || {}
     end

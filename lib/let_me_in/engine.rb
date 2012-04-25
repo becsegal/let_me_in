@@ -1,7 +1,11 @@
+
+
+
 module LetMeIn
   class Engine < Rails::Engine
+    puts "adding #{File.expand_path("../linked_account", __FILE__)} "
+    config.autoload_paths << File.expand_path("../linked_account", __FILE__)
     paths["app/views"] << "app/assets/templates/let_me_in"
-    self.config.linked_account_classes = []
   end
   
   # hack from http://tumblr.teamon.eu/post/898063470/better-scoped-rails-engines-routing
