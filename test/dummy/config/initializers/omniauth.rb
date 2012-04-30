@@ -12,7 +12,7 @@ Rails.application.config.middleware.use OmniAuth::Builder do
     provider :twitter, Twitter.key, Twitter.secret, :name => "twitter"
   end
   
-  provider :identity, :fields => [:username, :email], :model => LetMeIn::User, 
+  provider :identity, :fields => [:username, :email], :model => User, 
     :on_failed_registration => lambda { |env| 
       AuthController.action(:failure).call(env) 
     }

@@ -22,8 +22,6 @@ module LetMeIn
 
       module ClassMethods
         
-        DEV_URL = "https://dev.twitter.com/apps"
-        
         def link(auth_hash, user)
           account = self.find_or_create_by_user_id(:user_id => user.id)
           account.link(auth_hash, user)

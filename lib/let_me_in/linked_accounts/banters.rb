@@ -20,9 +20,6 @@ module LetMeIn
       
       module ClassMethods
         
-        DEV_URL = "https://banters.com/api/doc"
-        API_URL = "https://banters.com/"
-        
         def link(auth_hash, user)
           account = find_or_create_by_user_id(:user_id => user.id)
           account.link(auth_hash, user)

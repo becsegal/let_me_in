@@ -1,3 +1,3 @@
-class Banters < LetMeIn::LinkedAccount
+class Banters < LinkedAccount
   include LetMeIn::LinkedAccounts::Banters
 end

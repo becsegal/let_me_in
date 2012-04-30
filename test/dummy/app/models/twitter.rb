@@ -1,3 +1,3 @@
-class Twitter < LetMeIn::LinkedAccount
+class Twitter < LinkedAccount
   include LetMeIn::LinkedAccounts::Twitter
 end

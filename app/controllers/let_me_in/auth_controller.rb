@@ -28,11 +28,12 @@ module LetMeIn
       auth_hash = request.env['omniauth.auth']
       if params[:provider] == 'identity'
         options = {:redirect_url => main_app.root_path}
-        data = LetMeIn::User.find_or_create_by_auth_hash auth_hash
+        data = User.find_or_create_by_auth_hash auth_hash
         sign_in(data) if data
       else
-        logger.debug "[DEBUG] LetMeIn::#{auth_hash.provider}"
-        data = "LetMeIn::#{auth_hash.provider.capitalize}".constantize.link(auth_hash, current_user)
+        provider_class = LetMeIn::Engine.config.linked_account_class_names
+                                        .select{|p| p =~ /#{params[:provider]}/i}[0]
+        data = "#{provider_class}".constantize.link(auth_hash, current_user)
       end
       render_or_redirect data, options || {}
     end
