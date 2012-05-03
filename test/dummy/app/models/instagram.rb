@@ -1,3 +1,3 @@
 class Instagram < LinkedAccount
-  include LetMeIn::LinkedAccounts::Instagram
+  include LetMeIn::LinkedAccounts::InstagramAccount
 end

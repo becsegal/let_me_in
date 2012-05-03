@@ -1,11 +1,10 @@
 module LetMeIn
   module LinkedAccounts
-    module Twitter
+    module InstagramAccount
       extend ActiveSupport::Concern
-
       
       module InstanceMethods
-      
+        
         def link(auth_hash, user)
           update_attributes({
             :user_id => user.id,
@@ -13,12 +12,12 @@ module LetMeIn
             :secret => auth_hash[:credentials][:secret],
             :app_user_id => auth_hash[:uid],
             :app_username => auth_hash[:info][:nickname],
-            :url => auth_hash[:info][:urls]['Twitter'],
             :image_url => auth_hash[:info][:image]
           })
         end
         
       end
+
 
       module ClassMethods
         
@@ -28,8 +27,7 @@ module LetMeIn
         end
         
       end
-    
-    
+      
     end
   end
 end

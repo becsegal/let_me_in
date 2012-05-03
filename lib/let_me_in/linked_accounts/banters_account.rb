@@ -1,6 +1,6 @@
 module LetMeIn
   module LinkedAccounts
-    module Banters
+    module BantersAccount
       extend ActiveSupport::Concern
       
       module InstanceMethods
