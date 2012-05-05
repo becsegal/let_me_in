@@ -6,7 +6,7 @@ module LetMeIn
     end
 
     def disconnect
-      account = LinkedAccount.find(params[:id])
+      account = current_user.linked_accounts.find(params[:id])
       account.unlink
       data = account.reload
       render_or_redirect data, {:template => 'auth/callback'}

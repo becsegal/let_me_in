@@ -1,7 +1,7 @@
 class CreateLetMeInLinkedAccounts < ActiveRecord::Migration
   def change
     create_table :linked_accounts do |t|
-      t.string :user_id
+      t.integer :user_id
       t.string :type
       t.string :app_username
       t.string :app_user_id
