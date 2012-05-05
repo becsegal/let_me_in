@@ -33,6 +33,7 @@ module LetMeIn
       else
         provider_class = LetMeIn::Engine.config.linked_account_class_names
                                         .select{|p| p =~ /#{params[:provider]}/i}[0]
+        logger.debug "Provider class: #{provider_class}"
         data = "#{provider_class}".constantize.link(auth_hash, current_user)
       end
       render_or_redirect data, options || {}
