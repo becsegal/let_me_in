@@ -1,0 +1,1351 @@
+[WARN] failed to initialize linked accounts Please install the sqlite3 adapter: `gem install activerecord-sqlite3-adapter` (sqlite3 is not part of the bundle. Add it to Gemfile.)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (7.9ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "4PcfEzfaXdefqyzwDqDI_Q"], ["created_at", Sat, 05 May 2012 18:11:28 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$D8hzDGUSzYch8LYY9jNXruLCoOohcmzDndD/eJ9mmd.pd0m91dT2m"], ["updated_at", Sat, 05 May 2012 18:11:28 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "8mW9A0o9TjII7MrmMxE9dw"], ["created_at", Sat, 05 May 2012 18:11:28 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$QkA8ahaJHD8K0Cc/FHu/9uEcgdLjAT5BoV07K9Q2EEQCwfZrv6gYi"], ["updated_at", Sat, 05 May 2012 18:11:28 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "dEDJD7jIfYqZIdgbMdAACg"], ["created_at", Sat, 05 May 2012 18:11:28 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$6yxeL8.TMqNiOmwZ2NtFx.dRjiwpVeQ30z6goEIjmi0NeC8Bu7dlu"], ["updated_at", Sat, 05 May 2012 18:11:28 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "IcBe8YD40pK4yQWHXTXtLA"], ["created_at", Sat, 05 May 2012 18:11:28 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$H3rPbJuB44Wch/2v1.QncOoKrH79OwHzM.jpi/cInuhT7pTXnx3/2"], ["updated_at", Sat, 05 May 2012 18:11:28 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.7ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "01q6VFpXOL_vZq3gt0rqdw"], ["created_at", Sat, 05 May 2012 18:23:46 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$mPok9oEyVwKY5iCJ8r4YkODRU7RNccXcLLg7kiP.ymBlGEB2t1kge"], ["updated_at", Sat, 05 May 2012 18:23:46 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "qYIZMQqO1K7rjR3pQMAeww"], ["created_at", Sat, 05 May 2012 18:23:46 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$3ePPa6EEMmp68vkbZ.KIt.EOtX3RTP0sazI.bqdENDOmsGzLOF7/S"], ["updated_at", Sat, 05 May 2012 18:23:46 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "8V1yQio04Ucwn0fArU9Vtw"], ["created_at", Sat, 05 May 2012 18:23:46 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$Ug1uVwwviZYard/zIulYsuFdDhM4v5atL.e8NYlqWTZ.NLGUsJNci"], ["updated_at", Sat, 05 May 2012 18:23:46 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "6cuaxLppfPTU6ay_IETV8Q"], ["created_at", Sat, 05 May 2012 18:23:46 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$ASqLhZS0wBlxHpLGId8H8.tmD9SpD..SoZ/Ajqoxs3fesNblrNcLS"], ["updated_at", Sat, 05 May 2012 18:23:46 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.3ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "xlutrEYCBZDuUuZH6BIkAw"], ["created_at", Sat, 05 May 2012 18:25:13 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$X2TfDkm5XDZZvCYATxD.c.bnpM6AeB1MdnEebgRdm1voYlf/mjEgK"], ["updated_at", Sat, 05 May 2012 18:25:13 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "6ZpX6Q3dilA_9TPiNK0nGg"], ["created_at", Sat, 05 May 2012 18:25:13 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$G8Ti3W0EUlSN/7Zjooe8KuAbdqA7eznJ6GiqzIac3VA7TCjvvceQK"], ["updated_at", Sat, 05 May 2012 18:25:13 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "IvtW96cKzguoZJQYEi2_Ow"], ["created_at", Sat, 05 May 2012 18:25:13 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$B00h8fAjUbLZ0ljacpoUKue2S3Atfd4x0F5Ar4a5Ejzt7TE37.E8."], ["updated_at", Sat, 05 May 2012 18:25:13 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "BGW9Ds3-22ZaNfdtR_8YwA"], ["created_at", Sat, 05 May 2012 18:25:13 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$G5zLwATqPV8DYhMF/y6Zfuz1KETpR1aPGsTq9rvYS/KaJRTFm2Vty"], ["updated_at", Sat, 05 May 2012 18:25:13 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.2ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "gRlweu7bCuWHalCqDhKvSw"], ["created_at", Sat, 05 May 2012 18:25:32 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$daQBL78gp6Y.m79orh/jfuyxTm3GxyM0BW.ddsdedpyB0S1e64EwW"], ["updated_at", Sat, 05 May 2012 18:25:32 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "sM9DJLYQu27aI1RQs-7QOg"], ["created_at", Sat, 05 May 2012 18:25:32 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$MJXn8v8hTbp.PdbCwO94X.JIhSZoPJ2vOr1rRPCzJovPtD1sHshoG"], ["updated_at", Sat, 05 May 2012 18:25:32 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "Jx_gvWEeY8SgQ5GZWN-Vow"], ["created_at", Sat, 05 May 2012 18:25:32 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$qtt5a6eCV96QfM4xWSKyi.aBcEY7PMMCDoVuUZ22dTa8WGZ3/xm.i"], ["updated_at", Sat, 05 May 2012 18:25:32 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "JNrukF39uKNMIcMI6tbqtw"], ["created_at", Sat, 05 May 2012 18:25:33 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$5OwTQnW1WNXi7vt4O/0aqOUx4JD4qu6BIEYlvCcY8/uOO5hrMKwc."], ["updated_at", Sat, 05 May 2012 18:25:33 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (7.2ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "-w_7oyzcOtTB-_RRc40sfg"], ["created_at", Sat, 05 May 2012 18:25:53 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$fpb3RCM0krNajgrI97QYsu4M8GDCDnbUxqw6yEGimij6wQ7ckTD2y"], ["updated_at", Sat, 05 May 2012 18:25:53 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "79BaV5Vub7J3_NP7w7HrJw"], ["created_at", Sat, 05 May 2012 18:25:53 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$0c9qJ/yw61B5s8ej0RuVxeJ0YzDA4at02KVoloruiGo0ZdfccxQuO"], ["updated_at", Sat, 05 May 2012 18:25:53 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "4r1rM40u1_af0rVHO8DMSg"], ["created_at", Sat, 05 May 2012 18:25:53 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$C35rKVjiEURKiKXm7NcRM.TjY/u5aUuo/T6jXbWYvY643go1CKQii"], ["updated_at", Sat, 05 May 2012 18:25:53 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "7h0tzpvq1A-a-xYyCzRYQw"], ["created_at", Sat, 05 May 2012 18:25:54 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$v6QUYQxyncko9kxfWwk2VuURLY3fPX6VANfbMHY/RWLkBEKIm2OPO"], ["updated_at", Sat, 05 May 2012 18:25:54 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.7ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "NbcV6aiFWGn2BiqHDLgotA"], ["created_at", Sat, 05 May 2012 18:26:32 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$WmUGkrcj.n8fZbkbj2.UU.j.4/X.ag7QgGShbBOXLuDPJmO9dBBOS"], ["updated_at", Sat, 05 May 2012 18:26:32 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "0_OBy4ScDrEXD3uVmZ--wQ"], ["created_at", Sat, 05 May 2012 18:26:33 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$bPzH6kjc/6zu7msMN3bQd.55iJyKqye7rZNQ0FYi1AJHA8q1wZaxu"], ["updated_at", Sat, 05 May 2012 18:26:33 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "gBbHDG6Rs4ybwXkKhGk4bA"], ["created_at", Sat, 05 May 2012 18:26:33 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$tOHZJ6uMq3H99c8lFA4q5.jK.dAj6qxU1PYMgLhefXQuYi/oodJyy"], ["updated_at", Sat, 05 May 2012 18:26:33 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "14_rQEcJzRk6Xkz2D_LYYg"], ["created_at", Sat, 05 May 2012 18:26:33 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$1ATk4d1mfdjbEOKIlFGWu.opUgAYjdqWICY/vtL/KGTahHxP7byu2"], ["updated_at", Sat, 05 May 2012 18:26:33 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (8.1ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "bMrOgof06O3j-N2fQ-L4ww"], ["created_at", Sat, 05 May 2012 18:37:05 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$gzbMaK2nfaiMXorNhZREc.b8.7cF15Ir6jtFvFcJvYN9g9qUxOJ3m"], ["updated_at", Sat, 05 May 2012 18:37:05 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "9jEcnEy_Hij-W4GIMYiR-Q"], ["created_at", Sat, 05 May 2012 18:37:05 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$.h/zOYrQR./hFt3r.xeWkuTo/1yncSmKLCiKww/St4Hkf3OsdpdKC"], ["updated_at", Sat, 05 May 2012 18:37:05 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "ant2-wTOQ1Sn9NmGjaAhwA"], ["created_at", Sat, 05 May 2012 18:37:05 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$DkiOBZeUypeymaiXWHRwyOm1.JDLI3/ZfF1BTlaeP/vRITJtM/PES"], ["updated_at", Sat, 05 May 2012 18:37:05 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "LJ_P6VBRgGbU7e-hbND_8Q"], ["created_at", Sat, 05 May 2012 18:37:05 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$qxW1dNpEGL9A42T3l.n/x.AxMpY4kWk3TRuvzRUFAqciVSGyhEp9a"], ["updated_at", Sat, 05 May 2012 18:37:05 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (7.3ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "pU31z5i6gky-qCD0i9s-Yg"], ["created_at", Sat, 05 May 2012 18:37:26 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$WXL6G6W1ZKwxh0Os25cfCuFTYZYSVPv/HB0sNnrVw94kg5p/8.2JW"], ["updated_at", Sat, 05 May 2012 18:37:26 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "4SPV9BUVAnF5Z-xvsrI8EQ"], ["created_at", Sat, 05 May 2012 18:37:26 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$MhcvZgUkEemiMcuFIjNAsuuM1oPQtRwXkI6gO.Kk072ITHv1siyze"], ["updated_at", Sat, 05 May 2012 18:37:26 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "Idwz7QSHDJwlWQsaNb70zg"], ["created_at", Sat, 05 May 2012 18:37:26 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$orWEiRpzeVL1YNRG1gB6YeLYc41ZKUIZr.I5GNnkk5c6i/jcfx/hu"], ["updated_at", Sat, 05 May 2012 18:37:26 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "mRAHPTic9nAd6wgmMOasCg"], ["created_at", Sat, 05 May 2012 18:37:27 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$wd10lkZkUQBahNGjjUmq5OPG0tkpRYc9io3eAc2IvWdFxBgXnYlZW"], ["updated_at", Sat, 05 May 2012 18:37:27 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.3ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "cKQd4gVHe--q8X8hJydVag"], ["created_at", Sat, 05 May 2012 18:41:27 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$3M7FsfNtYXzJ2qPZEHSyu.B5VNcY4eBYh9hspVVsRtQFrbw6Fy0oC"], ["updated_at", Sat, 05 May 2012 18:41:27 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "UjVkGM3zfIIfCRiIcBZhXg"], ["created_at", Sat, 05 May 2012 18:41:27 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$r//zRCY98XGBMaF519mES.w9crrYyxfMqrzQZOy25Wl1dl9/kOiXC"], ["updated_at", Sat, 05 May 2012 18:41:27 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "tLBTGvrKjneEGTWtIi1SBQ"], ["created_at", Sat, 05 May 2012 18:41:27 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$c/FLxS0hS6doEwFDiLVf2.YcqPh8n2xBHgDXKcPS.qtl183ZYYVT6"], ["updated_at", Sat, 05 May 2012 18:41:27 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "HwueWaQqiSy74EuUtxjTjQ"], ["created_at", Sat, 05 May 2012 18:41:28 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$GpCVfY4eDEAkoCsvTcx9PuAGGU5WUM/mIZwtJgOIhhiDWKKV/FyxC"], ["updated_at", Sat, 05 May 2012 18:41:28 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.7ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "3wccV5QeX_ECKGB9ZqYDKQ"], ["created_at", Sat, 05 May 2012 18:44:01 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$Ap2x4m3digTW59rlJ9N31OCpyypeIKHRzb3W7aaNEagjzj8XR5HOy"], ["updated_at", Sat, 05 May 2012 18:44:01 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "7zSasB-feX8TLmAC2JJTdg"], ["created_at", Sat, 05 May 2012 18:44:02 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$5ID//8JCpf3Bhflc8xhKN.MFl1ZsH9WZo2DbklFQ/aw1ga1rE3RQu"], ["updated_at", Sat, 05 May 2012 18:44:02 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "SMFfg3_9y9gevyBV-Z5lBQ"], ["created_at", Sat, 05 May 2012 18:44:02 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$Zqb/GgsIEBc2qr3KrkBi3.R7g1DakrLyiMx6RJ0sbVRUPc5aBgfHK"], ["updated_at", Sat, 05 May 2012 18:44:02 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "g0PBzdKMF1rVmTkxWxDRKg"], ["created_at", Sat, 05 May 2012 18:44:02 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$S6yO7Hl8YE416uzy7uPbuu5D.A7UvpUqlHbLwbfZvRNKLD3T/71ci"], ["updated_at", Sat, 05 May 2012 18:44:02 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.3ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "pHqwOByka2R1jIK4O-5HsA"], ["created_at", Sat, 05 May 2012 18:45:14 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$5I90CKmD6AnkoY0nRfxf1O6b8C41maXYud5HIAzlAOIujUURHqota"], ["updated_at", Sat, 05 May 2012 18:45:14 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('@username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.4ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "z6VHELUxIQaRLeBeaUmkYA"], ["created_at", Sat, 05 May 2012 18:49:34 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$j6IWFi69iRwVErtsUrPOFe4PjkmuxkBYjuBNGV2mWsAl9OXwsK6Nq"], ["updated_at", Sat, 05 May 2012 18:49:34 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('@username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.3ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "uaKNrXUKsg5kga28IldXcw"], ["created_at", Sat, 05 May 2012 18:52:56 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$0MjKv93aKkybnuJ46fohb.SJavm4llRHVQRNJYce7Ju4Vfz0czAFm"], ["updated_at", Sat, 05 May 2012 18:52:56 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "g2sujuk8rfX4W8oHePTm7g"], ["created_at", Sat, 05 May 2012 18:52:56 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$PekUers1BQ.qQCIOkofF5uwmT8408orlijA/7SQ/iJA9l9GsOJTjS"], ["updated_at", Sat, 05 May 2012 18:52:56 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "nvt_UGj_q8EdaP-5n_HBvQ"], ["created_at", Sat, 05 May 2012 18:52:57 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$dgf2C5jC5lYbPQdEZ8Ghfuz23M.O.5lwBBWBhjzJy5QuFPw00ctuy"], ["updated_at", Sat, 05 May 2012 18:52:57 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "V285vcJvVfTw8xjAv5CYww"], ["created_at", Sat, 05 May 2012 18:52:57 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$3qrZR1twlXuWtevcG5pYquvF1fDLa2lu/TJmAT/W2JxP4vz5x4DT6"], ["updated_at", Sat, 05 May 2012 18:52:57 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+WARNING: Can't mass-assign protected attributes: password, password_confirmation
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('@username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.3ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "Ld3rwWgg6YEQO0TP0miiLw"], ["created_at", Sat, 05 May 2012 18:55:54 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$W1fTuJ1deDP/B5UjBZaAAepB50mvMrWorYGlAEaibsSad4qwpHw7q"], ["updated_at", Sat, 05 May 2012 18:55:54 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('@username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.3ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "eOjkbWMwNkPmDNG0DJfupw"], ["created_at", Sat, 05 May 2012 18:57:24 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$QwfOAUn3gu2OPnGuMRa5COi.SlyGaY52bRIgu.Rv4UuNMeV8R3K0e"], ["updated_at", Sat, 05 May 2012 18:57:24 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('@username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (65.8ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "KT8kdF0_e5rEbEFJAPCChA"], ["created_at", Sat, 05 May 2012 20:14:05 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$oD6cRU5tahO1Imja8BP6c..Qf633DQJRSKPdPiMh3xNK9aOntDHNS"], ["updated_at", Sat, 05 May 2012 20:14:05 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('@username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (8.1ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "nb7_ZaiT3GaQnWbGxVLPew"], ["created_at", Sat, 05 May 2012 20:29:57 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$sGnwwktu2P5c5ImonwGpj.ch2v79f9XOcMYXpb7KUwS0HXps.7w.a"], ["updated_at", Sat, 05 May 2012 20:29:57 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('@username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.2ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "vkACwYo0lygDAe35ITC55g"], ["created_at", Sat, 05 May 2012 20:33:57 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$qqMj3WYL37e6E.j2/IFahOy1CkC9ETyUMJvF6IxHmRiOLSOdEcAeq"], ["updated_at", Sat, 05 May 2012 20:33:57 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('@username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.3ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "q6ViDlA-y8Rg1TuzwBUgKQ"], ["created_at", Sat, 05 May 2012 20:34:41 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$gEHT9zZZx20NPIQWbc9EheAwXp47B1x57gU1WiSPFrnBU3SIYBhVW"], ["updated_at", Sat, 05 May 2012 20:34:41 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('@username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (7.2ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "_RjTPMcN-81L6pkJt_imuA"], ["created_at", Sat, 05 May 2012 20:36:24 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$XkryUcG3ZKNVHB03rh94RuuyP6Gw1yh2ekVNnbBYr6SnCt8T5uMwG"], ["updated_at", Sat, 05 May 2012 20:36:24 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "Qb0slMCRA26HKYk7I2qvyQ"], ["created_at", Sat, 05 May 2012 20:36:25 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$ath9mKX7.sCePfq5Y6xsbukTWIdqzI0.YH1ZQypBlG.huYD9COwxm"], ["updated_at", Sat, 05 May 2012 20:36:25 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "vv6NsdmgQhoKyQbUSQ3baQ"], ["created_at", Sat, 05 May 2012 20:36:25 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$yPg79hgUA9RiOr8uict5Ue.1/MO.gSGe9l9Kuc/9s7H5HePzHxr/."], ["updated_at", Sat, 05 May 2012 20:36:25 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('@username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (8.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "aG_Ns74CZWDQQCu1D_-WDw"], ["created_at", Sat, 05 May 2012 20:37:22 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$FutW4GKH9PMmGYnzG9cS7uwokA3PPe2syCy2GuzoTEVKWuBmu7bgq"], ["updated_at", Sat, 05 May 2012 20:37:22 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "1QxLKPmir3Sij-Oh3MKbuA"], ["created_at", Sat, 05 May 2012 20:37:22 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$b1qaojJLPuYfCbpsAs0gnOW6GCP74SeWHrC.2T3KJzT4IBQdWU1yO"], ["updated_at", Sat, 05 May 2012 20:37:22 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "D6KUZbL4W-rXqadePC60BQ"], ["created_at", Sat, 05 May 2012 20:37:22 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$5uO67yiXz/.o73x4bCTVCOLVIjLYtIuaEr1bW95aV5yLTQjC/sceW"], ["updated_at", Sat, 05 May 2012 20:37:22 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "cvcgnRMLYWZwuczPn9cyyQ"], ["created_at", Sat, 05 May 2012 20:37:22 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$LU4rBU1cbc8NNhiKRJBGUut.WrVLjYlxEpQxABQDphNzeATn2UtZm"], ["updated_at", Sat, 05 May 2012 20:37:22 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('@username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.3ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "_RZWH0kyqH9Qw2e5MIysPw"], ["created_at", Sat, 05 May 2012 20:37:51 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$BMXyFzAg56tDnTGy6lqdL.sirNIFiEbsaX7Z8/l7QSdpN4uCE.r9."], ["updated_at", Sat, 05 May 2012 20:37:51 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "FySR2-8NjlNzmk3zfFgUKg"], ["created_at", Sat, 05 May 2012 20:37:51 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$Z2lG/.4S/bQ2E7m9B1DOHueJmyihkiLbiKzn7qlBZtRj8lK126ee."], ["updated_at", Sat, 05 May 2012 20:37:51 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "znbGvPCNXruCMEFOy5QewA"], ["created_at", Sat, 05 May 2012 20:37:51 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$SY.ooy5NT3g1lzBhcbuMHufclffdmV6Zkc3M9OuGq8B9wqOLzHjD."], ["updated_at", Sat, 05 May 2012 20:37:51 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "5s-QYyMqQkKpxI9Q8bFNKg"], ["created_at", Sat, 05 May 2012 20:37:51 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$MZfYxwKbgycin59Azs7OvOZ7CQ4hxGAkX3MoPmcN.yX9ZZLgf.5Pa"], ["updated_at", Sat, 05 May 2012 20:37:51 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('@username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.6ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "FQQfjRVAygoSr-0BQQouBA"], ["created_at", Sat, 05 May 2012 20:38:07 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$Uw3E7Rg9sYhUBexo4YuY2eqATVEERSUmJKFvE8ZGwlG.cPT.KZVjK"], ["updated_at", Sat, 05 May 2012 20:38:07 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "HiGsf7QPCUkPiFZkhrDFlw"], ["created_at", Sat, 05 May 2012 20:38:07 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$W5dSABXN1Y8pQwUE5.Ie.umRrRMN96eUeYhJnyYD2b4Q9y.O1mxi."], ["updated_at", Sat, 05 May 2012 20:38:07 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "6UruEYm2qktXT0D1PTTiRw"], ["created_at", Sat, 05 May 2012 20:38:08 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$p4UdKZfDmN0gc9GGvDyuXOhm9NtgM/9KhWjrEjWfDQWxaYdmkMaiW"], ["updated_at", Sat, 05 May 2012 20:38:08 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "cUsXr3PUrKhea0kBMlzb3A"], ["created_at", Sat, 05 May 2012 20:38:08 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$H7VorQrm8bwRgjfLJF2Pe.nGFldvkVTkGcvfb0jQuZRQJig46sodC"], ["updated_at", Sat, 05 May 2012 20:38:08 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('@username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.8ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "mNbqcBwhwjgRSAR_HkW2tA"], ["created_at", Sat, 05 May 2012 20:40:09 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$XHQ.wmLAKxHuoIal70tiVu8BWIEP0BJLO6sBCBvs0lpKPjdMSgBse"], ["updated_at", Sat, 05 May 2012 20:40:09 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "IcX1ZzMnFUmWoPwY3ZwYoQ"], ["created_at", Sat, 05 May 2012 20:40:09 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$25QlidA25q68fpOha.3.n.PfgaLG4FNjFXWnyi.Yx5WECWafkZpMK"], ["updated_at", Sat, 05 May 2012 20:40:09 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "kCWffnHPxQc1Qxx2Dw2ezQ"], ["created_at", Sat, 05 May 2012 20:40:09 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$U8vrS2YGKJkGDUFZ0n2IaurHhYO33mGAV3/H34Ct6yFx/.9i83obW"], ["updated_at", Sat, 05 May 2012 20:40:09 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "wtunj_AEXpBTPTtHn_-Cow"], ["created_at", Sat, 05 May 2012 20:40:10 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$/TFCK3wA2ZXy.0uER/ulmOw6M1Hp8vEYrr4j8HCQeYWEsFOIiTcby"], ["updated_at", Sat, 05 May 2012 20:40:10 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('@username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (8.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "MGNzVmcrVda9JVxJRGNEHQ"], ["created_at", Sat, 05 May 2012 20:53:43 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$03TPcHfYP8z8rPCOXgEqeumLCnYkEqvj.mpVcQX2qFQYB/itoccYm"], ["updated_at", Sat, 05 May 2012 20:53:43 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "-BzPrCR8eIvj5Z7E4Moh3g"], ["created_at", Sat, 05 May 2012 20:53:43 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$b9wj02ZtyrSFZARBh6D/OOiD/DG/2aF0HHTRnLXqVha/oJWrwE83a"], ["updated_at", Sat, 05 May 2012 20:53:43 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "RVm9_WeTfu7homveOm-R2A"], ["created_at", Sat, 05 May 2012 20:53:43 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$0cxrl9esua7PFITZ1p4sf.yCuiEln4AkYHhddIM44fN3g9xAwhFeS"], ["updated_at", Sat, 05 May 2012 20:53:43 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "IAf4jckN-GZkx2F70pKRbw"], ["created_at", Sat, 05 May 2012 20:53:43 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$MJRbRPIz9Ty4PTPk4TvFb.Z0RXMxfXPGWhM6fduru5CGPZhQvzO46"], ["updated_at", Sat, 05 May 2012 20:53:43 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "VEUuWssOmX9EwwZapmU47g"], ["created_at", Sat, 05 May 2012 20:53:44 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$CGsPZnd3yj0MDAiL.ayzTOKvPqCv3GEvBnQT.L1OjXCYw/.eILIVS"], ["updated_at", Sat, 05 May 2012 20:53:44 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "VNBTO6XnmUrVspmmjrZfKA"], ["created_at", Sat, 05 May 2012 20:53:44 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$sCm9SzrBLKMwlMUbyMzwr.jWVMc1zgyznro/Otb56bsUTQDcz5f6G"], ["updated_at", Sat, 05 May 2012 20:53:44 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email=2 or username=2) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (139.8ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "W25eb6BEsyGystY71rxqDg"], ["created_at", Sat, 05 May 2012 20:53:44 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$Vigft21A7XNDYTBeL6LGg.7fW3RDYzig3IY150sHQSGkLwg2jYxtO"], ["updated_at", Sat, 05 May 2012 20:53:44 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email=1 or username=1) LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('@username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (11.6ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "AbNT-MNmSdFo27METzsvZg"], ["created_at", Sat, 05 May 2012 20:59:45 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$gTwSVk1g4BtDArn1W7EmB.epiryL6sW4pm8rS3AiUuEoU36xeZ53a"], ["updated_at", Sat, 05 May 2012 20:59:45 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (19.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "uyDJj7XwSqdnu80id7Qi_A"], ["created_at", Sat, 05 May 2012 20:59:46 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$lR134ycvqoR13na3GdBRPe2rj6712KRrpXevLtPFIfGm2hikYfnIi"], ["updated_at", Sat, 05 May 2012 20:59:46 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "Se62mJdkFx3_C874ZuNSxA"], ["created_at", Sat, 05 May 2012 20:59:47 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$qLFYCmlwUGt6n6HaJ8YF2e6EHiLbU6x38GPFuodRtZ46K.4LJvdky"], ["updated_at", Sat, 05 May 2012 20:59:47 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "rJt_AYle--6qVkv--DZPOw"], ["created_at", Sat, 05 May 2012 20:59:47 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$iOb05sS7y5FO2Pv/tiEt5.ISr2sxCUY/1quDcriIucDkIKFT9JozG"], ["updated_at", Sat, 05 May 2012 20:59:47 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "8uaQQugxYEbpmPNdv9S6uA"], ["created_at", Sat, 05 May 2012 20:59:48 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$BjBLQGq1Qo5kCyNIwKAk3uC8PYPjr7CZBko7iQah2cw6zA9lS7Dq6"], ["updated_at", Sat, 05 May 2012 20:59:48 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "V4qTI9j4PDmbfxQ7EDVaNQ"], ["created_at", Sat, 05 May 2012 20:59:48 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$ADg1.NKcK8SiWwcemtunGuQUNT.JyEC8H7/AaJ7sdfPHQMoqA.ymG"], ["updated_at", Sat, 05 May 2012 20:59:48 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email=2 or username=2) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "6dXSH21qib3OCHvWxH-3xw"], ["created_at", Sat, 05 May 2012 20:59:48 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$oUf6VLIcjl6r1bdbcmlkx.mqQnwLEhrQCdXyRlmLJYg9gzZhvO11S"], ["updated_at", Sat, 05 May 2012 20:59:48 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email=1 or username=1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "IGc04OQxTjviWwymKGyVvw"], ["created_at", Sat, 05 May 2012 20:59:48 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$bBkIfEdaNgKSdqdj09hiUOJR7INuJhbF99caJFgu8zsGF0wa7FwYS"], ["updated_at", Sat, 05 May 2012 20:59:48 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('@username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.4ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "bYtj5LjUcYTHAQxL_jkATQ"], ["created_at", Sat, 05 May 2012 21:00:58 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$q4i2Wm3/pbKmVSZ5lQCWTO.xxLceDLRBMf4BpE.qxuIBNmWH19yru"], ["updated_at", Sat, 05 May 2012 21:00:58 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "yuKBE5Qvn5uWSR-QS9wkaA"], ["created_at", Sat, 05 May 2012 21:00:59 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$Faxk7K7ctFN8Om3XFlDW.eWiGetHCWhgKE0NqpqTtjEfNUZoOXrRy"], ["updated_at", Sat, 05 May 2012 21:00:59 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "ig7UYg6lzipfoAC48AggPg"], ["created_at", Sat, 05 May 2012 21:00:59 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$J.ukW94vJ/Ji/hjeWEdNbOkUzy394ENCtAThc9M7b6qM0b7IBWoCO"], ["updated_at", Sat, 05 May 2012 21:00:59 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "MdAxouFySObF3nfFiZ9XvA"], ["created_at", Sat, 05 May 2012 21:00:59 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$6Wg7rNDn/Gnzc7z/cFJpW.Zw6kzYTLn.pruExVNdbt3L15HyblWn2"], ["updated_at", Sat, 05 May 2012 21:00:59 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "weCHNKGSXrklZ-OGphA2Zg"], ["created_at", Sat, 05 May 2012 21:00:59 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$lWqibWIkb1W7/QpEM0YKCeMzXC0aX7E4d7jRhzsWcMlu1Eom9Y3G."], ["updated_at", Sat, 05 May 2012 21:00:59 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "L9OwRcZIuv8NOywPQd-X3w"], ["created_at", Sat, 05 May 2012 21:00:59 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$aJWDdg5ntqtcGvYl6UQCkONX.Jj/f4FBzJrgxCj4JJjTn7iKYTR8e"], ["updated_at", Sat, 05 May 2012 21:00:59 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email=2 or username=2) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "zZETX89r3t3oQTxm1qV2rg"], ["created_at", Sat, 05 May 2012 21:01:00 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$Awqtp9gTmQuJX/CM6jxHaeXuSUbA4KhD8WpjmIfAfVXo/Ywh0AuhG"], ["updated_at", Sat, 05 May 2012 21:01:00 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email=1 or username=1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "3ElJWG7OF5PJYJBkJaMNDA"], ["created_at", Sat, 05 May 2012 21:01:00 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$Rt6jwP3hEhNWxBMwqsw8VOKm4SDQxgwW2UhFgESgnVVK5DwVzLlXm"], ["updated_at", Sat, 05 May 2012 21:01:00 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('@username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.4ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "rvY2lE6uHMIdVpi7tV0RjQ"], ["created_at", Sat, 05 May 2012 21:06:57 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$NglORt7UTs3pCqNRc4BN9uw1NPCkRkNDAJ4lxgIyKifYPQ43H3oK."], ["updated_at", Sat, 05 May 2012 21:06:57 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "yEPEry_XwMAIpp39-HL6lg"], ["created_at", Sat, 05 May 2012 21:06:58 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$ev7HsMYQrZFh3rPVmUEEn.1gBzwqaqdcMen/7OXFufvMpLaF9UZnW"], ["updated_at", Sat, 05 May 2012 21:06:58 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "jGoasIT6MRIAH7Iiq76vrA"], ["created_at", Sat, 05 May 2012 21:06:58 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$aYBfRL7763aZgcrknto4ceHt4o1i7qs6En2mJqDFemD7cKnrc1ES."], ["updated_at", Sat, 05 May 2012 21:06:58 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "ABfywnSX013zzkI5RXm5Lw"], ["created_at", Sat, 05 May 2012 21:06:58 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$itQRZfegbzocImgkzkph0uS4CfexNeW7JuogrX7rQu/Vj5bBL8L9q"], ["updated_at", Sat, 05 May 2012 21:06:58 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "fowq5XPW-vIYPeSRYfzfuQ"], ["created_at", Sat, 05 May 2012 21:06:58 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$d0CAu3F/ypB0phxxgPmM4ODDt4ZU9ihGaLh9OPBRiVnnU.xpY7ioa"], ["updated_at", Sat, 05 May 2012 21:06:58 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "KvR0OYfqMIP3QdkFayJmEw"], ["created_at", Sat, 05 May 2012 21:06:59 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$ZB39wgsBmBd/FnFpZNTlo.IctVFkqFBxDzmdLg7MwW1jINs6xGXA."], ["updated_at", Sat, 05 May 2012 21:06:59 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email=2 or username=2) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "3XbDbz7rvOQ9gbDPsvTjbg"], ["created_at", Sat, 05 May 2012 21:06:59 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$BdK92SSURAdPjJA86PsH6OhNvAPpQmhAq6GLybvq.CvEZyrxSD0uG"], ["updated_at", Sat, 05 May 2012 21:06:59 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email=1 or username=1) LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('@username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('bad_email') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.2ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "Idxv499p60uWH7XYsglIsw"], ["created_at", Sat, 05 May 2012 21:07:53 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$QaXqIhEzFAw20DABAIvC/u8OQRRTr3qfQWI.clajhzUXKbk94tPva"], ["updated_at", Sat, 05 May 2012 21:07:53 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE (email='wrong-username' or username='wrong-username') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "hkF0C_EvGRidIgbN9R2QOw"], ["created_at", Sat, 05 May 2012 21:07:54 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$wNGt4NBsjZlt5i1qWcRUreMuGUNTk5Zvgo8eyWguS1LdMbtDq7kee"], ["updated_at", Sat, 05 May 2012 21:07:54 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester' or username='tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["auth_token", "yVgkqDErV0r68TtB5b1Z9A"], ["created_at", Sat, 05 May 2012 21:07:54 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$c2iIxlN5TMIYGrVTs/vqxeydl6mwBAVUTuloGH9ugbPg7NkJ7ePUO"], ["updated_at", Sat, 05 May 2012 21:07:54 UTC +00:00], ["username", "tester"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='wrong@email.com' or username='wrong@email.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "WV4-XtFja91b3E_4J9_diA"], ["created_at", Sat, 05 May 2012 21:07:54 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$EcRmFSawjTtl2wPHu.pI6edaWGoLJpSXFNsfUYfYRfSDyfV7XlGa6"], ["updated_at", Sat, 05 May 2012 21:07:54 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email='tester@example.com' or username='tester@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "ftOVOCym04CEZ8hrdXB-1A"], ["created_at", Sat, 05 May 2012 21:07:54 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$mHOncnMG5JKgGsi84Alp2eakeKRMCFhbmI.Lk9RHP13xq1ugOM/NS"], ["updated_at", Sat, 05 May 2012 21:07:54 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "9DNW9WkbTsDCftXQIBs9jg"], ["created_at", Sat, 05 May 2012 21:07:54 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$zvPtNBa/FhibdEFw1rt5FeloMrdC62ER2v6RZ2M3N04aCobx5w3Y."], ["updated_at", Sat, 05 May 2012 21:07:54 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email=2 or username=2) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "D3KDv_RRQY_eb3_YSo34pg"], ["created_at", Sat, 05 May 2012 21:07:55 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$Wp1IKxUxtJcPhts26Dw8ZekloA6qLxLicBtpE2bUOb2r/Q1i4Ket."], ["updated_at", Sat, 05 May 2012 21:07:55 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (email=1 or username=1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "zwHtbQqs2wlKoCdyG_p5cw"], ["created_at", Sat, 05 May 2012 21:07:55 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$F/Ywpdq/J1wUj9uyIEiYyeK8T3ruWm77IT4nua8ZeJ92t6/64B0SS"], ["updated_at", Sat, 05 May 2012 21:07:55 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE LOWER("users"."username") = LOWER('tester') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT 1 FROM "users" WHERE LOWER("users"."email") = LOWER('tester@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("auth_token", "created_at", "email", "name", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["auth_token", "d-EnDVbabbwpGSDJUi4n4A"], ["created_at", Sat, 05 May 2012 21:07:55 UTC +00:00], ["email", "tester@example.com"], ["name", nil], ["password_digest", "$2a$10$jT41AAigoJ2kEVPrmfvMReQZfh1vX/jjLG5Ip7Jj0jvKmdUy1oN7e"], ["updated_at", Sat, 05 May 2012 21:07:55 UTC +00:00], ["username", "tester"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m

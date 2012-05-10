@@ -13,7 +13,9 @@ module LetMeIn
       
       
       module ClassMethods
-        def has_linked_accounts
+        def has_identity
+          
+          has_secure_password
           has_many :linked_accounts
           
           attr_accessible :username, :email, :password, :password_confirmation
@@ -29,11 +31,6 @@ module LetMeIn
                     :format => { :with => /\A^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$\z/i },
                     :uniqueness => { :case_sensitive => false }
                     
-          validates :password,
-                    :presence => true,
-                    :confirmation => true,
-                    :length => { :minimum => 6 }
-                    
           before_create :generate_auth_token
         end
         
@@ -43,12 +40,14 @@ module LetMeIn
             # Don't need to validate password. omniauth gem does that too
             user = find_by_id(auth_hash.uid)
           end
+          # TODO: implement create with 
           user
         end
         
         def authenticate(username_or_email, password)
-          where(["email=:username_or_email or username=:username_or_email", :username_or_email => username_or_email])
-            .first.try(:authenticate, password)
+          user = where(["email=:username_or_email or username=:username_or_email", 
+                  :username_or_email => username_or_email]).first
+          user.try(:authenticate, password)
         end
         
         def authenticate_with_token id, token
