@@ -81,4 +81,10 @@ describe User do
     end
   end
   
+  describe "serializable_hash" do
+    let(:user) { User.create!(@attr) }
+    specify { user.serializable_hash[:password_digest].should be_nil }
+    specify { user.serializable_hash[:auth_token].should be_nil }
+  end
+  
 end

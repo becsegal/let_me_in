@@ -13,6 +13,7 @@ module LetMeIn
             :app_username => auth_hash[:info][:nickname],
             :image_url => auth_hash[:info][:image]
           })
+          self
         end
         
       end

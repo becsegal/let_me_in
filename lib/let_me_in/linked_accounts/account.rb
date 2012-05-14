@@ -9,7 +9,7 @@ module LetMeIn
           options ||= {}
           options[:except] = (options[:except] || []) | [:token, :secret, :refresh_token]
           hash = super options
-          hash.merge!(:connected => connected?, :type => type.split('::').last)
+          hash.merge!(:connected => connected?, :type => (type || '').split('::').last)
           hash
         end
         
@@ -18,12 +18,15 @@ module LetMeIn
         end
 
         def unlink
-          update_attributes(:token => nil, :secret => nil, :app_user_id => nil, :app_username => nil,
-                            :url => nil, :image_url => nil)
+          destroy
         end
 
         def connected?
           token?
+        end
+        
+        def invalidate_tokens
+          update_attributes(:token => nil, :secret => nil)
         end
         
       end
@@ -31,10 +34,10 @@ module LetMeIn
       
       module ClassMethods
         
-        def belongs_to_user
+        def is_a_linked_account
           belongs_to :user
-          attr_accessible :type, :user_id, :token, :secret, :app_username, :app_user_id, :url, :image_url
-          cattr_accessor :account_types
+          attr_accessible :type, :user_id, :token, :secret, :refresh_token, 
+                          :app_username, :app_user_id, :url, :image_url
         end
         
         
@@ -46,20 +49,8 @@ module LetMeIn
           name.split('::').last
         end
         
-        def key
-          nil
-        end
-        
-        def secret
-          nil
-        end
-        
         def available?
           key && secret
-        end
-        
-        def invalidate_tokens
-          false
         end
         
         def key

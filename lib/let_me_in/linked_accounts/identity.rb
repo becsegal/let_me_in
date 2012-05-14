@@ -9,6 +9,12 @@ module LetMeIn
           self.auth_token = SecureRandom.urlsafe_base64
         end
         
+        def serializable_hash options={}
+          (options ||= {}).reverse_merge!({:exclude => []})
+          options[:exclude] |= [:password_digest, :auth_token]
+          super options
+        end
+        
       end
       
       

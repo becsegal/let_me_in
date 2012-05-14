@@ -16,6 +16,7 @@ module LetMeIn
             :url => auth_hash[:info][:urls]['Twitter'],
             :image_url => auth_hash[:info][:image]
           })
+          self
         end
         
       end

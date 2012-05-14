@@ -1,6 +1,8 @@
 module LetMeIn
   class AuthController < ApplicationController
     
+    before_filter :authenticate, :except => :failure
+    
     def connect
       redirect_to "/auth/#{params[:provider].downcase}"
     end
@@ -8,8 +10,7 @@ module LetMeIn
     def disconnect
       account = current_user.linked_accounts.find(params[:id])
       account.unlink
-      data = account.reload
-      render_or_redirect data, {:template => 'auth/callback'}
+      render_or_redirect nil, :redirect_url => accounts_path
     end
 
     def failure

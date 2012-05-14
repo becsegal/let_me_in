@@ -74,6 +74,11 @@ GEM
     erubis (2.7.0)
     execjs (1.3.0)
       multi_json (~> 1.0)
+    factory_girl (2.6.4)
+      activesupport (>= 2.3.9)
+    factory_girl_rails (1.7.0)
+      factory_girl (~> 2.6.0)
+      railties (>= 3.0.0)
     faraday (0.7.6)
       addressable (~> 2.2)
       multipart-post (~> 1.1)
@@ -179,6 +184,10 @@ GEM
       libwebsocket (~> 0.1.3)
       multi_json (~> 1.0)
       rubyzip
+    simplecov (0.6.4)
+      multi_json (~> 1.0)
+      simplecov-html (~> 0.5.3)
+    simplecov-html (0.5.3)
     sprockets (2.0.3)
       hike (~> 1.2)
       rack (~> 1.0)
@@ -204,6 +213,7 @@ PLATFORMS
 DEPENDENCIES
   capybara
   coffee-rails (~> 3.1.1)
+  factory_girl_rails
   handlebars_assets
   hbs
   jquery-rails
@@ -215,5 +225,6 @@ DEPENDENCIES
   render_or_redirect!
   rspec-rails
   sass-rails (~> 3.1.4)
+  simplecov
   sqlite3
   uglifier (>= 1.0.3)

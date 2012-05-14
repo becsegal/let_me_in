@@ -23,6 +23,8 @@ end
 
 group :test do
   gem 'sqlite3'
+  gem 'simplecov', :require => false
+  gem 'factory_girl_rails'
 end
 
 # Declare any dependencies that are still in development here instead of in
