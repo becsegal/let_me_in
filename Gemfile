@@ -8,7 +8,7 @@ gemspec
 # jquery-rails is used by the dummy application
 gem "jquery-rails"
 
-gem 'omniauth-identity'
+gem 'omniauth-identity', :path => '../gems/omniauth-identity'
 gem 'omniauth-instagram'
 gem 'omniauth-twitter', '0.0.8'
 gem 'omniauth-banters', :git => "git://github.com/becarella/omniauth-banters.git"

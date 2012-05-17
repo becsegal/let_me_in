@@ -53,7 +53,10 @@ module LetMeIn
         def authenticate(username_or_email, password)
           user = where(["email=:username_or_email or username=:username_or_email", 
                   :username_or_email => username_or_email]).first
-          user.try(:authenticate, password)
+          u = user.try(:authenticate, password)
+          logger.debug "User.authenticate: #{user.inspect}"
+          logger.debug "returning: #{u.inspect}"
+          u
         end
         
         def authenticate_with_token id, token

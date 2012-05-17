@@ -1,9 +1,9 @@
 window.AlertView = Backbone.View.extend
   className: "alerts"
-  template: JST['alerts/index']
+  template: JST['let_me_in/alerts/index']
   
   initialize: (options) ->
-    _.bindAll @, 'render'
+    _.bindAll @
     @error = options.error
     @notice = options.notice
 

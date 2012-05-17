@@ -1,7 +1,7 @@
 module LetMeIn
   class AuthController < ApplicationController
     
-    before_filter :authenticate, :except => :failure
+    before_filter :authenticate, :except => [:failure, :callback]
     
     def connect
       redirect_to "/auth/#{params[:provider].downcase}"
@@ -26,7 +26,9 @@ module LetMeIn
     end
 
     def callback
+      Rails.logger.debug "callback"
       auth_hash = request.env['omniauth.auth']
+      Rails.logger.debug "auth_hash: #{auth_hash.inspect}"
       if params[:provider] == 'identity'
         options = {:redirect_url => main_app.root_path}
         data = User.find_or_create_by_auth_hash auth_hash

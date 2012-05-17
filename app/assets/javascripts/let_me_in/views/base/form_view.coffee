@@ -31,7 +31,7 @@ window.FormView = Backbone.View.extend
 window.FormErrorView = Backbone.View.extend
   tagName: "span",
   className: "_alert help-inline",
-  template: JST['alerts/inline']
+  template: JST['let_me_in/alerts/inline']
   
   initialize: (options) ->
     @message = options.message

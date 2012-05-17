@@ -4,7 +4,9 @@ module LetMeIn
     paths["app/views"] << "app/assets/templates/let_me_in"
     config.autoload_paths << dir = File.expand_path("../linked_accounts", __FILE__)
     Dir[File.join(dir, "*.rb")].each { |l| require l }
-    config.linked_account_class_names = []
+    config.autoload_paths << dir = File.expand_path("../core_ext", __FILE__)
+    Dir[File.join(dir, "*.rb")].each { |l| require l }
+    config.account_types = []
   end
   
   # hack from http://tumblr.teamon.eu/post/898063470/better-scoped-rails-engines-routing
