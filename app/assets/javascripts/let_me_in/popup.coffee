@@ -3,12 +3,12 @@ window.popup_window = null
 window.popup_close_callback = null
 
 window.closePopup = (json) ->
+  console.debug "closePopup: "
+  console.debug json
   if window.popup_window?
     window.popup_window.close()
   if window.popup_close_callback?
     window.popup_close_callback(json)
-  else 
-    window.location.reload()
 
 window.openPopup = (width, height, url, callback) ->  
   l = (screen.width - width) / 2   

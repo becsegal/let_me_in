@@ -22,7 +22,9 @@ module LetMeIn
       module ClassMethods
         
         def link(auth_hash, user)
+          logger.debug "Banters.link"
           account = find_or_create_by_user_id(:user_id => user.id)
+          logger.debug "account: #{account.inspect}"
           account.link(auth_hash, user)
         end
         

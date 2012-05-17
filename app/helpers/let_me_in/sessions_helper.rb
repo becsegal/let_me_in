@@ -11,6 +11,7 @@ module LetMeIn
     end
 
     def sign_out
+      Rails.logger.debug "signout"
       cookies.delete(:remember_token)
       self.current_user = nil
     end

@@ -7,7 +7,8 @@ LinkedAccountRouter = Backbone.Router.extend
   linked_accounts: ->
     if preloaded_data?
       accounts = (new LinkedAccounts).reset(preloaded_data.data)
-      view = new LinkedAccountConnectors collection: accounts, el: '#linked_accounts'
+      view = new LinkedAccountButtons collection: accounts, el: '#linked_accounts'
+    new_view = new NewLinkedAccountButtons(real_accounts: accounts, el: '#new_linked_accounts')
   
   signin: -> 
     new NewSessionForm({preloaded: true, errors: errors});

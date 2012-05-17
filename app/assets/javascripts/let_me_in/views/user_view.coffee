@@ -17,7 +17,9 @@ window.UserForm = window.FormView.extend
     false
     
   success_callback: (model, response) ->
-    window.location.href = "/"
+    console.debug "success_callback"
+    console.debug response
+    #window.location.href = "/"
   
   error_callback: (model, response) ->
     @displayErrors JSON.parse(response.responseText)
@@ -29,6 +31,7 @@ window.NewUserForm = window.UserForm.extend
     alert_view = new AlertView(error: ["<strong>Uh oh.</strong> We had some problems signing you up."])
     @$el.find('.feedback').html(alert_view.render().el)
     @displayErrors JSON.parse(response.responseText)
+
 
 window.NewSessionForm = window.UserForm.extend
 

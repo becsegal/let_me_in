@@ -60,6 +60,11 @@ module LetMeIn
         def secret
           ENV["#{short_name.upcase}_SECRET"]
         end
+        
+        def as_json_with_short_name(options={})
+          {:type => short_name}
+        end
+        alias_method :as_json, :as_json_with_short_name
       end
     end
   end

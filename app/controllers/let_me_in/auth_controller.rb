@@ -26,20 +26,18 @@ module LetMeIn
     end
 
     def callback
-      Rails.logger.debug "callback"
       auth_hash = request.env['omniauth.auth']
-      Rails.logger.debug "auth_hash: #{auth_hash.inspect}"
       if params[:provider] == 'identity'
-        options = {:redirect_url => main_app.root_path}
-        data = User.find_or_create_by_auth_hash auth_hash
-        sign_in(data) if data
+        clear_return_path
+        options = {:redirect_url => main_app.post_login_path}
+        user = User.find_or_create_by_auth_hash auth_hash
+        sign_in(user) if user
       else
-        provider_class = LetMeIn::Engine.config.linked_account_class_names
-                                        .select{|p| p =~ /#{params[:provider]}/i}[0]
-        logger.debug "Provider class: #{provider_class}"
-        data = "#{provider_class}".constantize.link(auth_hash, current_user)
+        provider_class = LetMeIn::Engine.config.account_types
+                                        .select{|p| Rails.logger.debug "class name: #{p.name.downcase}"; p.name.downcase =~ /#{params[:provider].downcase}/i}[0]
+        data = provider_class.link(auth_hash, current_user)
       end
-      render_or_redirect data, options || {}
+      render_or_redirect data.serializable_hash, options || {}
     end
     
   end

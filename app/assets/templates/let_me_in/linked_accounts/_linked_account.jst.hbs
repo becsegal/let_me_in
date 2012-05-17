@@ -1,5 +1,6 @@
-<p class="connect_linked_account" id="linked_account_{{id}}">
-  <button class='btn {{#if connected}}btn-success{{else}}{{#if app_username}}btn-warning{{/if}}{{/if}}'>
+<p class="connect_linked_account" id="linked_account_{{#if id}}{{id}}{{else}}{{type}}{{/if}}">
+  <button class='btn {{#if connected}}btn-success{{else}}{{#if app_username}}btn-warning{{/if}}{{/if}}'
+          data-type="{{type}}">
     {{ type }} {{#if app_username}} - {{app_username}}{{/if}}
   </button>
   {{#unless connected}}{{#if app_username}}<a href='/auth/{{type}}/disconnect.json' class='disconnect'>Disconnect{{/if}}{{/unless}}
