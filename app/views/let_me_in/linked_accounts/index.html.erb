@@ -2,14 +2,18 @@
 <h1>Linked Accounts</h1>
 <hr />
 
-<%#= render  :partial => 'linked_accounts/linked_accounts.jst', 
-            :locals => {:hbs => {:data => @data.as_json, :div_id => 'linked_accounts' } } %>
-
+<div id='linked_accounts'>
+  <%= render  :partial => 'linked_accounts/linked_accounts.jst', 
+              :locals => {:hbs => {:data => @data.as_json} } %>
+</div>
+<br />
 <h1>Add Account</h1>
 <hr />
-<%= render  :partial => 'linked_accounts/linked_accounts.jst', 
-            :locals => {:hbs => {:data => LetMeIn::Engine.config.account_types.as_json, :div_id => 'new_linked_accounts' } } %>
+<div id='new_linked_accounts'>
+  <%= render  :partial => 'linked_accounts/linked_accounts.jst', 
+              :locals => {:hbs => {:data => LetMeIn::Engine.config.account_types.as_json} } %>
+</div>
 
-<pre>
-  <%= JSON.pretty_generate({:data => LetMeIn::Engine.config.account_types.as_json }) %>
-</pre>
+<!-- <pre>
+  <%#= JSON.pretty_generate({:data => LetMeIn::Engine.config.account_types.as_json }) %>
+</pre> -->

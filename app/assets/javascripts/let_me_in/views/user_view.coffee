@@ -17,9 +17,8 @@ window.UserForm = window.FormView.extend
     false
     
   success_callback: (model, response) ->
-    console.debug "success_callback"
-    console.debug response
-    #window.location.href = "/"
+    next_url = response.extra.redirect_url
+    window.location.href = (next_url || "/")
   
   error_callback: (model, response) ->
     @displayErrors JSON.parse(response.responseText)

@@ -32,8 +32,8 @@ end
 # Git. Remember to move these dependencies to your gemspec before releasing
 # your gem to rubygems.org.
 
-#gem "render_or_redirect", :git => "git://github.com/becarella/render_or_redirect.git"
-gem "render_or_redirect", :path => "../render_or_redirect"
+gem "render_or_redirect", :git => "git://github.com/becarella/render_or_redirect.git"
+#gem "render_or_redirect", :path => "../render_or_redirect"
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'

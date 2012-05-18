@@ -1,4 +1,7 @@
 window.LinkedAccount = Backbone.Model.extend
+
+  url: -> "/auth/#{@get('type')}/#{@get('id')}.json"
+
   initialize: (options) ->
     # nada yet
     

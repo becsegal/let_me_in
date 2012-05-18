@@ -7,17 +7,12 @@ window.LinkedAccountButton = Backbone.View.extend
     "click .disconnect": "toggleConnect"
     
   initialize: (options) ->
-    me = @
-    @model.on("change", -> me.render())
-      
+    _.bindAll @
+    @model.on("change", => @render())
+  
   toggleConnect: (event) ->
     if @model.isConnected() || @model.isExpired()
-      $.ajax 
-        type: 'DELETE'
-        url: "/auth/#{@model.get('type')}/disconnect.json"
-        data: {id: @model.get('id')}
-        success: (data) =>
-          @model.set data.data
+      @model.destroy()
     else
       openPopup 600, 400, "/auth/#{@model.get('type')}/connect"
     false
@@ -30,38 +25,38 @@ window.LinkedAccountButton = Backbone.View.extend
 window.LinkedAccountButtons = Backbone.View.extend
   tagName: "div"
   id: "linked_accounts"
+  template: JST["let_me_in/linked_accounts/index"]
 
   initialize: (options) ->
+    _.bindAll @
     @views = []
+    @initViews()
+    @collection.on("add remove", @render)
+    
+  initViews: ->
     @collection.each (linked_account) =>
       view = new LinkedAccountButton(model: linked_account, el: "#linked_account_#{linked_account.id}")
       @views.push view
-    @collection.on("add", @render)
     
   render: ->
-    console.debug "LinkedAccountButtons.render"
+    @$el.html @template(data: @collection.toJSON())
+    @initViews()
+    @
 
 window.NewLinkedAccountButtons = Backbone.View.extend
   id: "new_linked_accounts"
   events: 
     "click button": "connect"
   
-  initialize: (options) ->
-    console.debug "NewLinkedAccountButtons.initialize"
-    @real_accounts = options.accounts
+  initialize: ->
+    _.bindAll @
+    @real_accounts = @options.accounts
     
   connect: (event) ->
-    console.debug "connect"
-    console.debug event
-    console.debug "type: #{$(event.target).attr('data-type')}"
     openPopup 600, 400, "/auth/#{$(event.target).attr('data-type')}/connect", @addAccount
     false
     
   addAccount: (json) ->
     if !json.error?
-      account = new LinkedAccount(json)
-      console.debug "adding account: "
-      console.debug account
-      @real_accounts.add [account]
-      console.debug "real accounts:"
-      console.debug @real_accounts
+      @real_accounts.add [new LinkedAccount(json)]
+      
