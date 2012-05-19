@@ -31,14 +31,10 @@ module LetMeIn
         clear_return_path
         options = {:redirect_url => main_app.post_login_path}
         data = User.find_or_create_by_auth_hash auth_hash
-        Rails.logger.debug "user: #{data.inspect}"
         sign_in(data) if data
       else
-        Rails.logger.debug "account_types: #{LetMeIn::Engine.config.account_types.inspect}"
-        Rails.logger.debug "looking for: #{params[:provider].downcase}"
         provider_class = LetMeIn::Engine.config.account_types
                                         .select{|p| p.name.downcase =~ /#{params[:provider].downcase}/i}[0]
-        Rails.logger.debug "provider_class: #{provider_class}"
         data = provider_class.link(auth_hash, current_user)
       end
       render_or_redirect data.serializable_hash, options || {}

@@ -53,8 +53,8 @@ module LetMeIn
         end
         
         def authenticate(username_or_email, password)
-          user = where(["email=:username_or_email or username=:username_or_email", 
-                  :username_or_email => username_or_email]).first
+          user = where(["email=:username_or_email or username=:username_or_email",
+                        {:username_or_email => username_or_email}]).first
           user.try(:authenticate, password)
         end
         
