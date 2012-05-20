@@ -16,7 +16,7 @@ gem 'omniauth-twitter', '0.0.8'
 gem 'omniauth-banters', :git => "git://github.com/becarella/omniauth-banters.git"
 
 gem 'hbs'
-gem 'handlebars_assets', :git => 'git://github.com/goggin13/handlebars_assets.git'
+gem 'handlebars_assets' #, :git => 'git://github.com/goggin13/handlebars_assets.git'
 
 group :assets do
   gem 'sass-rails',   '~> 3.1.4'

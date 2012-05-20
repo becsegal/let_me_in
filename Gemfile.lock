@@ -12,15 +12,6 @@ GIT
     render_or_redirect (0.0.1)
       rails
 
-GIT
-  remote: git://github.com/goggin13/handlebars_assets.git
-  revision: d6a500a6c80cda4f990df68cc41d0298f8ebfa61
-  specs:
-    handlebars_assets (0.4.1)
-      execjs (>= 1.2.9)
-      sprockets (>= 2.0.3)
-      tilt
-
 PATH
   remote: .
   specs:
@@ -92,6 +83,10 @@ GEM
     faraday (0.8.0)
       multipart-post (~> 1.1)
     ffi (1.0.11)
+    handlebars_assets (0.4.4)
+      execjs (>= 1.2.9)
+      sprockets (>= 2.0.3)
+      tilt
     hashie (1.2.0)
     hbs (0.1.2)
       therubyracer (~> 0.9.4)
@@ -219,7 +214,7 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 3.1.1)
   factory_girl_rails
-  handlebars_assets!
+  handlebars_assets
   hbs
   jquery-rails
   let_me_in!
