@@ -124,6 +124,9 @@ GEM
     omniauth-instagram (1.0.0)
       omniauth (~> 1.0)
       omniauth-oauth2 (~> 1.0)
+    omniauth-lastfm (0.0.2)
+      omniauth-oauth (~> 1.0)
+      rest-client (~> 1.6.6)
     omniauth-oauth (1.0.1)
       oauth
       omniauth (~> 1.0)
@@ -162,6 +165,8 @@ GEM
     rake (0.9.2.2)
     rdoc (3.12)
       json (~> 1.4)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     rspec (2.10.0)
       rspec-core (~> 2.10.0)
       rspec-expectations (~> 2.10.0)
@@ -226,6 +231,7 @@ DEPENDENCIES
   omniauth-foursquare
   omniauth-identity
   omniauth-instagram
+  omniauth-lastfm
   omniauth-tumblr
   omniauth-twitter (= 0.0.8)
   render_or_redirect!

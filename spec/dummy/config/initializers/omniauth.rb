@@ -27,15 +27,20 @@ Rails.application.config.middleware.use OmniAuth::Builder do
     provider :instagram, Instagram.key, Instagram.secret, :display => 'touch', :name => "instagram"
     LetMeIn::Engine.config.account_types << Instagram
   end
-  
-  if Twitter.available?
-    provider :twitter, Twitter.key, Twitter.secret, :name => "twitter"
-    LetMeIn::Engine.config.account_types << Twitter
+
+  if Lastfm.available?
+    provider :lastfm, Lastfm.key, Lastfm.secret, :name => "lastfm" 
+    LetMeIn::Engine.config.account_types << Lastfm
   end
 
   if Tumblr.available?
     provider :tumblr, Tumblr.key, Tumblr.secret, :name => "tumblr" 
     LetMeIn::Engine.config.account_types << Tumblr 
+  end
+  
+  if Twitter.available?
+    provider :twitter, Twitter.key, Twitter.secret, :name => "twitter"
+    LetMeIn::Engine.config.account_types << Twitter
   end
 
   provider :identity, :fields => [:username, :email], :model => User, 
