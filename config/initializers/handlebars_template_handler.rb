@@ -20,3 +20,4 @@ end
 
 # Register HBS template handler to render Handlebars templates
 ActionView::Template.register_template_handler(:hbs, HandlebarsTemplateHandler)
+puts "registered template handler"

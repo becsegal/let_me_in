@@ -5,6 +5,8 @@ source "http://rubygems.org"
 # development dependencies will be added by default to the :development group.
 gemspec
 
+gem 'pg'
+
 # jquery-rails is used by the dummy application
 gem "jquery-rails"
 
@@ -14,7 +16,8 @@ gem 'omniauth-twitter', '0.0.8'
 gem 'omniauth-banters', :git => "git://github.com/becarella/omniauth-banters.git"
 
 gem 'hbs'
-gem 'handlebars_assets'
+gem 'handlebars_assets', :git => 'git://github.com/goggin13/handlebars_assets.git'
+
 group :assets do
   gem 'sass-rails',   '~> 3.1.4'
   gem 'coffee-rails', '~> 3.1.1'
