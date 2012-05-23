@@ -14,6 +14,9 @@ gem 'omniauth-identity'
 gem 'omniauth-instagram'
 gem 'omniauth-twitter', '0.0.8'
 gem 'omniauth-banters', :git => "git://github.com/becarella/omniauth-banters.git"
+gem 'omniauth-foursquare'
+gem 'omniauth-tumblr'
+gem 'omniauth-lastfm'
 
 gem 'hbs'
 gem 'handlebars_assets', :git => 'git://github.com/becarella/handlebars_assets.git'
