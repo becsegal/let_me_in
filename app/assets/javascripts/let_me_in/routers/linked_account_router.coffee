@@ -11,7 +11,7 @@ LinkedAccountRouter = Backbone.Router.extend
     new_view = new NewLinkedAccountButtons(accounts: accounts, el: '#new_linked_accounts')
   
   signin: -> 
-    new NewSessionForm({preloaded: true, errors: errors});
+    new NewSessionForm({preloaded: true, errors: (if errors? then errors else false)});
       
 window.admin_router = new LinkedAccountRouter()
 

@@ -1,4 +1,6 @@
 Dummy::Application.routes.draw do
+  root :to => 'home#index'
+  
   match 'signin' => 'let_me_in/sessions#new'
   match 'signout' => 'let_me_in/sessions#destroy'
   match 'auth/:provider/connect' => "let_me_in/auth#connect", :via => :get
