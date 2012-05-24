@@ -8,3 +8,7 @@
 //= require ./lib/underscore
 //= require_tree ./lib
 //= require_tree ./../templates
+
+if ((typeof Backbone) != "undefined") {
+  Backbone.history.start({pushState: true}); 
+}

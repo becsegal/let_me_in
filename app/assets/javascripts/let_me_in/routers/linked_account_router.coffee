@@ -13,9 +13,7 @@ LinkedAccountRouter = Backbone.Router.extend
   signin: -> 
     new NewSessionForm({preloaded: true, errors: (if errors? then errors else false)});
       
-window.admin_router = new LinkedAccountRouter()
-
-Backbone.history.start({pushState: true})
+window.account_router = new LinkedAccountRouter()
 
 ($ "a.push_nav").live 'click', ->
   url = ($ this).attr('href')
