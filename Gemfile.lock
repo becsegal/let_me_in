@@ -1,13 +1,4 @@
 GIT
-  remote: git://github.com/becarella/handlebars_assets.git
-  revision: b3e557d1657149eed6a32e054e8815a2e0aec794
-  specs:
-    handlebars_assets (0.4.4)
-      execjs (>= 1.2.9)
-      sprockets (>= 2.0.3)
-      tilt
-
-GIT
   remote: git://github.com/becarella/omniauth-banters.git
   revision: 9354eb2699995464d56c3b0e115a460ea1ca0098
   specs:
@@ -20,6 +11,15 @@ GIT
   specs:
     render_or_redirect (0.0.1)
       rails
+
+GIT
+  remote: git://github.com/goggin13/handlebars_assets.git
+  revision: d6a500a6c80cda4f990df68cc41d0298f8ebfa61
+  specs:
+    handlebars_assets (0.4.1)
+      execjs (>= 1.2.9)
+      sprockets (>= 2.0.3)
+      tilt
 
 PATH
   remote: .
