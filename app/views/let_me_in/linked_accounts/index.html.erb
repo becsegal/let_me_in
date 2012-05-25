@@ -4,14 +4,14 @@
 
 <div id='linked_accounts'>
   <%= render  :partial => 'linked_accounts/linked_accounts.jst', 
-              :locals => {:hbs => {:data => @data.as_json} } %>
+              :locals => {:data => @data.as_json} %>
 </div>
 <br />
 <h1>Add Account</h1>
 <hr />
 <div id='new_linked_accounts'>
   <%= render  :partial => 'linked_accounts/linked_accounts.jst', 
-              :locals => {:hbs => {:data => LetMeIn::Engine.config.account_types.as_json} } %>
+              :locals => {:data => LetMeIn::Engine.config.account_types.as_json} %>
 </div>
 
 <!-- <pre>

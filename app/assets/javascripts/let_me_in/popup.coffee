@@ -3,8 +3,6 @@ window.popup_window = null
 window.popup_close_callback = null
 
 window.closePopup = (json) ->
-  console.debug "closePopup: "
-  console.debug json
   if window.popup_window?
     window.popup_window.close()
   if window.popup_close_callback?

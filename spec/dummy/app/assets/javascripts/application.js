@@ -9,6 +9,6 @@
 //= require_tree ./lib
 //= require_tree ./../templates
 
-if ((typeof Backbone) != "undefined") {
+$(document).ready(function() {
   Backbone.history.start({pushState: true}); 
-}
+});

@@ -13,13 +13,12 @@ GIT
       rails
 
 GIT
-  remote: git://github.com/goggin13/handlebars_assets.git
-  revision: d6a500a6c80cda4f990df68cc41d0298f8ebfa61
+  remote: git@github.com:goggin13/handlebars_wax.git
+  revision: 0568d999d7f80aaec2009c9272fc7a0dfd049b2b
   specs:
-    handlebars_assets (0.4.1)
-      execjs (>= 1.2.9)
-      sprockets (>= 2.0.3)
-      tilt
+    handlebars_wax (0.0.1)
+      hbs
+      rails (~> 3.1.4)
 
 PATH
   remote: .
@@ -229,8 +228,7 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 3.1.1)
   factory_girl_rails
-  handlebars_assets!
-  hbs
+  handlebars_wax!
   jquery-rails
   let_me_in!
   omniauth-banters!
